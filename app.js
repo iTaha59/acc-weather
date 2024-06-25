@@ -13,7 +13,8 @@ function search(){
     <h2 class="card-text">${data.name}</h2><br />
     <h3 class="card-text">temperature: ${Math.round(data.main.temp)}°C</h3><br />
     <h3 class="card-text">feels like: ${Math.round(data.main.feels_like)}°C</h3><br />
-    <h3 class="card-text">Sky: (${data.weather[0].description})</h3><br /><br />
+    <h3 class="card-text">humidity: ${Math.round(data.main.humidity)}%</h3><br />
+    <h3 class="card-text">Atmosphere: ${data.weather[0].description}</h3><br /><br />
 </div>    
 `
 })
